@@ -19,6 +19,7 @@ import java.util.logging.Logger;
  * @author Taptuk
  */
 public class MySQL_1 {
+    //Deneme
 
     /**
      * @param args the command line arguments
@@ -46,7 +47,8 @@ public class MySQL_1 {
             }
             System.out.println("Alindi");
         } catch (ClassNotFoundException ex) {
-            ex.printStackTrace();        
+            ex.printStackTrace();       
+            
            System.out.println("Sürücü projeye eklenmemiş!");
         } catch (SQLException ex) {
             ex.printStackTrace();
